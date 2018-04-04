@@ -1,0 +1,65 @@
+/*
+	Base stylesheet
+*/
+
+@import url('animate.css');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Ubuntu|Work+Sans');
+
+
+/* General styles*/
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	color: #333640;
+	background-color: #C8C9C7;
+}
+.container {
+	position: relative;
+	margin: 50px;
+	border-radius: 50px;
+	background-color: #A7A9AB;
+	width: 400px;
+	height: 380px;
+	text-align: center;
+}
+a {
+	line-height: 30px;
+	font-size: 18px;
+	width: 100px;
+	height: 50px;
+	color: #1D1E24;
+}
+a:active {
+	color: #D9D9D7;
+}
+.project-content {
+	border-radius: 20px;
+	margin: 22px;
+	background-color: #D9D9D7;
+	width: 350px;
+	animation-delay: 2s;
+}
+.project {
+	margin-top: 0;
+	font-size: 30px;
+	text-transform: uppercase;
+	font font-family: helveica;
+	animation-delay: 2.5s;
+}
+.first{
+	animation-delay: 3s;
+}
+.second {
+	animation-delay: 3.5s;
+}
+.third {
+	animation-delay: 4s;
+}
+p {
+	position: absolute;
+	bottom: 0;
+	right: 30px;
+	font-family: 'Lobster', cursive;
+}
